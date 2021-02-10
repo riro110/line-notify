@@ -9,5 +9,6 @@ setup(
     name="line_notify",
     version="1.0.0",
     install_requires=requires,
-    packages=["line_notify"]
+    packages=["line_notify"],
+    python_requires=">=3.9"
 )
